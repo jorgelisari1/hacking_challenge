@@ -1,0 +1,75 @@
+.suma{
+    width: 400px;
+    display: flex;
+}
+.sumaAsegurada{
+    color: #494F66;
+    font-size: 16px;
+    font-weight: 900;
+}
+.valorSuma{
+display: flex;
+}
+
+.div2{
+    display: flex;
+    height: 40px;
+    border: 1px solid #939DFF;
+    border-radius: 4px;
+    width: 180px;
+    margin: 20px 0px 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.min{
+    color: #676F8F;
+    font-size: 12px;
+    width: 85px;
+    border-right: 1px solid #E4E8F7;
+    text-align: right;
+    padding-right: 8px;
+}
+.max{
+    color: #676F8F;
+    font-size: 12px;
+    width: 85px;
+    padding-left: 8px;
+    text-align: left;
+}
+.button-menos{
+ background-color: #FFFFFF;
+ border: none;
+ color:#6F7DFF;
+ width: 50px;
+ height: 35px;
+ outline:none;
+}
+.button-mas{
+    background-color: #FFFFFF;
+    border: none;
+    color:#6F7DFF;
+    width: 50px;
+    height: 35px;
+}
+.div1{
+    margin-right: 40px;
+}
+  @media screen and (max-width: 450px) {
+    .suma{
+      flex-direction: column;
+      width: 300px;;
+    }
+
+    
+.div2{
+    width: 292px;
+    height: 56px;
+}
+
+.div1{
+    margin-right: 0px;
+}
+  
+  }
+  
+  

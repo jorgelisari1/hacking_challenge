@@ -1,0 +1,123 @@
+.progress{
+    background: #F7F8FC;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.text-step-1{
+    display: none;
+}
+
+
+
+.borde_discontinuo{
+    border-left: 1px dashed #C5CBE0;;
+    height: 50px;
+    margin: 1px 0px 1px 12px;
+  }
+  .horizontal{
+      display: flex;
+      font-size: 12px;
+  }
+  .circulo{
+    width: 24px;
+    height: 24px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid;
+    color: #FFFFFF;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6F7DFF;
+  }
+  .circulo2{
+    width: 24px;
+    height: 24px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #C5CBE0;
+    color: #C5CBE0;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.datos{
+    font-size: 16px;
+    color: #494F66;
+    font-weight: 900;
+}
+
+.plan{
+    font-size: 16px;
+    color: #A3ABCC;
+}
+.icon-back{
+    display: none;
+}
+.ocultar{
+    display: block;
+    padding-top: 40px;
+}
+@media screen and (max-width: 450px) {
+    .progress{
+   background-color: #FFFFFF;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   height: 48px;
+   border-bottom: 1px solid #F0F2FA;
+    }
+    .text-step-1{
+        color:#676F8F;
+        font-size: 10px;
+        display: block;
+        font-weight: 900;
+    }
+    .linear{
+        height: 6px;
+        width: 175px;
+        background-color: #E4E8F7;
+        margin: 0px 10px 0px 10px;
+        border-radius: 20px;
+    }
+    .linear-hijo{
+        height: 6px;
+        width: 45px;
+        background-color: #6F7DFF;
+        border-radius: 20px;
+    }
+    .linear2{
+
+        height: 6px;
+        width: 175px;
+        background-color: #6F7DFF;
+        margin: 0px 10px 0px 10px;
+        border-radius: 20px;
+    }
+    .ocultar{
+        display: none;
+    }
+
+    .icon-back{
+        width: 24px;
+        height: 24px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        border: 1px solid;
+        color: #F0F2FA;
+        margin-right: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

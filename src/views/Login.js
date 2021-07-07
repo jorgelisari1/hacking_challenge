@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import TextField from '@material-ui/core/TextField';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
@@ -47,34 +47,7 @@ const GreenCheckbox = withStyles({
     checked: {},
 })((props) => <Checkbox color="default" {...props} />);
 
-export default function useWindowDimensions() {
 
-    const hasWindow = typeof window !== 'undefined';
-
-    function getWindowDimensions() {
-        const width = hasWindow ? window.innerWidth : null;
-        const height = hasWindow ? window.innerHeight : null;
-        return {
-            width,
-            height,
-        };
-    }
-
-    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
-
-    useEffect(() => {
-        if (hasWindow) {
-            function handleResize() {
-                setWindowDimensions(getWindowDimensions());
-            }
-
-            window.addEventListener('resize', handleResize);
-            return () => window.removeEventListener('resize', handleResize);
-        }
-    }, [hasWindow]);
-
-    return windowDimensions;
-}
 
 export const Login = () => {
     const history = useHistory();
@@ -87,8 +60,8 @@ export const Login = () => {
     const [labelInput, setLabelInput] = useState("");
     const [labelDoc, setLabelDoc] = useState("");
     const [labelCelular, setLabelCelular] = useState("");
-    const [id, setId] = React.useState('DNI');
-    const [checked, setChecked] = React.useState(true);
+    const [id, setId] = useState('DNI');
+    const [checked, setChecked] = useState(true);
 
     const handleCheck = (event) => {
         setChecked(event.target.checked);

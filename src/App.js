@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
 import { Login } from './views/Login';
-
+import { Home } from './views/Home';
 
 import './index.css';
 
@@ -20,6 +20,9 @@ const App = () => {
   return (
       <Router>
         <Switch>
+        <Route path="/home">
+            <Home />
+          </Route>
           <Route path="/">
             <ThemeProvider theme={theme}>
               <Login />

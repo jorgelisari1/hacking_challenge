@@ -284,7 +284,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #ECF0FF; 
-    width: 100% 
+    width: 100%;
+    height: 100%;
 }
 .viewDesktop__lateral{
     margin-left: 8rem; 
@@ -402,6 +403,9 @@ body {
 
     .content__header{
         background-color: #F7F8FC;
+    }
+    .viewDesktop {
+        display: none;
     }
     
 }

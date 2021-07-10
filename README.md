@@ -44,12 +44,12 @@ React Router is a collection of navigational components that compose declarative
 Material-UI, is world's most popular React UI framework.
 
 ## How the project developed
-**1** Creation of the folder system and installation of the main libraries. 
-**2** Creation of the login view under the mobile firts methodology.
-**3** Creation of the folder system and installation of the main libraries.
+1. Creation of the folder system and installation of the main libraries. 
+2. Creation of the login view under the mobile firts methodology.
+3. Creation of the folder system and installation of the main libraries.
 
 ## Next steps
-**1** Implementation of the logic 
-**2** Component user interface improvements.
+1. Implementation of the logic 
+2. Component user interface improvements.
 
 

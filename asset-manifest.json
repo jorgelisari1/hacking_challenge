@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/hacking_challenge/static/css/main.2774ea11.chunk.css",
+    "main.js": "/hacking_challenge/static/js/main.c025c8ab.chunk.js",
+    "main.js.map": "/hacking_challenge/static/js/main.c025c8ab.chunk.js.map",
+    "runtime-main.js": "/hacking_challenge/static/js/runtime-main.4e458b12.js",
+    "runtime-main.js.map": "/hacking_challenge/static/js/runtime-main.4e458b12.js.map",
+    "static/js/2.3834251c.chunk.js": "/hacking_challenge/static/js/2.3834251c.chunk.js",
+    "static/js/2.3834251c.chunk.js.map": "/hacking_challenge/static/js/2.3834251c.chunk.js.map",
+    "static/js/3.bd8f8839.chunk.js": "/hacking_challenge/static/js/3.bd8f8839.chunk.js",
+    "static/js/3.bd8f8839.chunk.js.map": "/hacking_challenge/static/js/3.bd8f8839.chunk.js.map",
+    "index.html": "/hacking_challenge/index.html",
+    "static/css/main.2774ea11.chunk.css.map": "/hacking_challenge/static/css/main.2774ea11.chunk.css.map",
+    "static/js/2.3834251c.chunk.js.LICENSE.txt": "/hacking_challenge/static/js/2.3834251c.chunk.js.LICENSE.txt",
+    "static/media/girl-desktop.bd0d93d7.png": "/hacking_challenge/static/media/girl-desktop.bd0d93d7.png",
+    "static/media/mobile-girl.470f66bf.png": "/hacking_challenge/static/media/mobile-girl.470f66bf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e458b12.js",
+    "static/js/2.3834251c.chunk.js",
+    "static/css/main.2774ea11.chunk.css",
+    "static/js/main.c025c8ab.chunk.js"
+  ]
+}

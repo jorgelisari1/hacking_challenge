@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Hacking Challenge
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -33,12 +33,23 @@ ployment
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 
-# Libraries
-## `React Router Dom`
+## Libraries
+### `React Router Dom`
 
 React Router is a collection of navigational components that compose declaratively with your application.
 
 
-## `Material UI`
+### `Material UI`
 
 Material-UI, is world's most popular React UI framework.
+
+## How the project developed
+**1** Creation of the folder system and installation of the main libraries. 
+**2** Creation of the login view under the mobile firts methodology.
+**3** Creation of the folder system and installation of the main libraries.
+
+## Next steps
+**1** Implementation of the logic 
+**2** Component user interface improvements.
+
+
